@@ -1,0 +1,65 @@
+@import url('https://fonts.google.com/share?selection.family=Sour+Gummy:ital,wght@0,100..900;1,100..900');
+
+.oracle-inicio {
+    background-color: black;
+    background-position: center;
+    color: white;
+    padding: 20px;
+    border-radius: 05px;
+    text-align: center;
+    max-width: 80%;
+    margin: 50px auto;
+    border-radius: 5 px;
+    box-shadow: 0 4px 6px rgba(164, 164, 164, 0.1);
+}
+
+.body1 {
+    background-color: black;
+    background-image: url(img/fondo.webp); 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #e20808;
+    text-align: center;
+    padding: 180px;
+  }
+  
+  .oracle-container {
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    padding: 20px;
+    border-radius: 05px;
+    text-align: center;
+    max-width: 80%;
+    margin: 50px auto;
+    border-radius: 5 px;
+    box-shadow: 0 4px 6px rgba(164, 164, 164, 0.1);
+  }
+  
+  button {
+    background-color: #6200ea;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background-color: #3700b3;
+  }
+  
+  .response-box {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #6200ea;
+  }
+
+  
