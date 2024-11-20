@@ -57,9 +57,10 @@ body {
 
 
   .respuesta {
-    display: block;
+    display: flex;
     color: #5b078bdb;
     background-color: rgb(203, 203, 203);
+    width: 100%;
     padding: 2%;
     animation: slide-in 10s infinite alternate;
   }

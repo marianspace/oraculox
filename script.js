@@ -1,27 +1,29 @@
 // script.js
 document.addEventListener('DOMContentLoaded', () => {
     const responses = [
-      "Sí te decidís, sí.",
+      "Sí te decidís...<br>sí.",
       "Ni lo sueñes.",
-      "Podría decirte que si, pero no ",
-      "Debería decirte que no, pero sí ",
-      "La respuesta vendrá cuando tires una moneda al aire",
+      "Podría decirte que si,<br>pero no",
+      "Debería decirte que no,<br> pero sí ",
+      "La respuesta vendrá...<br>cuando tires una moneda al aire",
       "Recalculando.",
       "mmmmmm",
-      "Recorcholis",
+      "Recorcholís",
       "No lo creo.",
-      "El día menos pensado, será",
-      "Decretálo"
+      "El día menos pensado,<br> será",
+      "Decretálo",
+      "¿Que soy<br>Pepita de la palmera?",
+      "A otra cosa, mariposa",
     ];
 
     const boxrespuesta = document.getElementById('response');
-    boxrespuesta.textContent = "El Oráculo esta pensando..."
+    boxrespuesta.innerHTML  = "El Oráculo esta pensando..."
     boxrespuesta.classList.add('fade-out');
 
     setTimeout(() => {
       const randomIndex = Math.floor(Math.random() * responses.length);
       const randomResponse = responses[randomIndex];
-      boxrespuesta.textContent = randomResponse;
+      boxrespuesta.innerHTML  = randomResponse;
       boxrespuesta.classList.remove('fade-out');
       boxrespuesta.classList.add('fade-in');
       boxrespuesta.classList.add("respuesta");
