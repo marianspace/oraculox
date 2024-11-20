@@ -47,12 +47,12 @@ body {
 
   .fade-out {
     opacity: 0;
-    transition: opacity 4s ease-out;
+    transition: opacity 2s ease-out;
   }
 
   .fade-in {
     opacity: 1;
-    transition: opacity 4s ease-in;
+    transition: opacity 2s ease-in;
   }
 
 
