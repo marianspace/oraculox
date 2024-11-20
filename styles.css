@@ -46,20 +46,20 @@ body {
   }
 
   .fade-out {
-    opacity: 0;
-    transition: opacity 4s ease-out;
+    opacity: 2;
+    transition: opacity 2s ease-out;
   }
 
   .fade-in {
     opacity: 1;
-    transition: opacity 4s ease-in;
+    transition: opacity 2s ease-in;
   }
 
 
   .respuesta {
     display: flex;
-    color: #5b078bdb;
-    background-color: rgb(203, 203, 203);
+    color: rgb(141, 5, 107);
+    text-shadow: 2px 2px rgb(236, 237, 171);
     width: 100%;
     padding: 2%;
     animation: slide-in 10s infinite alternate;

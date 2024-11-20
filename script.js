@@ -1,18 +1,16 @@
 // script.js
 document.addEventListener('DOMContentLoaded', () => {
     const responses = [
-      "Sí te decidís...<br>sí.",
-      "Ni lo sueñes.",
+      "Sí te decidís...🤷‍♀️",
+      "Supercalifragilisticoespialidoso",
       "Podría decirte que si,<br>pero no",
       "Debería decirte que no,<br> pero sí ",
       "La respuesta vendrá...<br>cuando tires una moneda al aire",
       "Recalculando.",
-      "mmmmmm",
       "Recorcholís",
-      "No lo creo.",
-      "El día menos pensado,<br> será",
+      "El día menos pensado",
       "Decretálo",
-      "¿Que soy<br>Pepita de la palmera?",
+      "¿Que soy<br>Pepita de la palmera?<br>decídete",
       "A otra cosa, mariposa",
     ];
 
@@ -31,7 +29,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     let redirected = false;
 
-    document.addEventListener("mousemove", () => {
+    document.addEventListener("click", () => {
     if (!redirected) {
     redirected = true;
     window.location.href = "index.html";

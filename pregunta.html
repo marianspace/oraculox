@@ -20,9 +20,13 @@
      <h1><p>Dí tu pregunta en voz alta</p>
       <p>tres veces</p></h1>
      <script>
-        setTimeout(() => {
-            window.location.href = "oraculo.html";
-          }, 7000); 
+      const redirect = () => {
+        window.location.href = "oraculo.html";
+    };
+
+    setTimeout(redirect, 6000);
+
+    document.addEventListener("click", redirect);
      </script>
   </div>
 </body>

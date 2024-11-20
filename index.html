@@ -19,9 +19,13 @@
   <div class="oracle-inicio">
     <h1>Buscás una respuesta del destino</h1>
     <script>
-        setTimeout(() => {
-            window.location.href = "pregunta.html";
-          }, 6000); 
+      const redirect = () => {
+        window.location.href = "pregunta.html";
+    };
+
+    setTimeout(redirect, 6000);
+
+    document.addEventListener("click", redirect);
     </script>
 </body>
 </html>
